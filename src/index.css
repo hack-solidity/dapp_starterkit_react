@@ -1,0 +1,52 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url('https://rsms.me/inter/inter.css');
+
+/* Your custom styles here */
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 640px) {
+  .container {
+    max-width: 100%;
+    padding: 1rem;
+  }
+}
+
+/* Dark mode styles */
+.dark-mode {
+  background-color: #1a202c;
+  color: #e2e8f0;
+}
+
+input.dark-mode,
+button.dark-mode {
+  background-color: #4a5568;
+  border-color: #4a5568;
+  color: #cbd5e0;
+}
+
+button.dark-mode:hover {
+  background-color: #718096;
+  border-color: #718096;
+  color: #cbd5e0;
+}
+
+input.dark-mode:focus,
+button.dark-mode:focus {
+  outline-color: #cbd5e0;
+}
+
+.dark-mode p {
+  color: #cbd5e0;
+}
+
+/* Footer styles */
+footer {
+  margin-top: auto;
+}
